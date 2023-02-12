@@ -10,7 +10,7 @@ const Home = () => {
   };
 
   return (
-    <div className="justify-center">
+    <div className="flex h-screen justify-center items-center ">
       <h2>Welcome! Please enter the quiz question:</h2>
       <input
         type="text"
