@@ -1,19 +1,32 @@
 import React from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+
+const countVariant = {
+  initial: { opacity: 1, scale: 0 },
+  visible: { opacity: 1, scale: 1, rotateZ: 360 },
+};
 
 const Quiz = () => {
   const location = useLocation();
-  const question = location.state.data;
+  const navigate = useNavigate();
+
+  const question = location.state;
   const [seconds, setSeconds] = React.useState(null);
 
-  const retrieveVoice = () =>{ //this function should get the voice media
-    console.log("fastest button and voice retrieval")
-  }
+  const retrieveVoice = () => {
+    //this function should get the voice media
+    console.log("fastest button and voice retrieval");
+  };
+
+  const onClick = () => {
+    navigate("/home");
+  };
 
   React.useEffect(() => {
-    if(seconds===0){
-       retrieveVoice();
-       setSeconds(null)
+    if (seconds === 0) {
+      retrieveVoice();
+      setSeconds(null);
     }
 
     // exit early when we reach 0
@@ -29,18 +42,56 @@ const Quiz = () => {
     return () => clearInterval(intervalId);
   }, [seconds]);
 
-
   return (
-    <div className="flex h-screen justify-center items-center ">
-      <h2>{question}</h2>
+    <motion.div
+      initial={{ width: "100%" }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
+      className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center flex-col"
+    >
+      <motion.h2
+        initial={{ opacity: 0, x: 200 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ type: "spring", duration: 2 }}
+        className="font-playfair font-bold text-5xl text-white mb-20"
+      >
+        Question: {question}
+      </motion.h2>
 
-      <Link to="/">
-        <button>Ask a new question</button>
-      </Link>
+      <AnimatePresence>
+        {seconds && (
+          <motion.div
+            variants={countVariant}
+            initial="initial"
+            animate="visible"
+            transition={{ type: "spring", repeat: 5, duration: 1 }}
+            className="w-50 h-50 text-8xl font-bold text-white"
+          >
+            {seconds}
+          </motion.div>
+        )}
+      </AnimatePresence>
 
-      <button onClick={()=>setSeconds(5)}>Start question countdown</button>
-      <div>{seconds}</div>
-    </div>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "spring", duration: 2 }}
+        className="flex gap-x-10"
+      >
+        <button
+          className="p-5 bg-red text-white rounded-xl mt-20"
+          onClick={() => setSeconds(5)}
+        >
+          Start question countdown
+        </button>
+        <button
+          onClick={onClick}
+          className="p-5 bg-red text-white rounded-xl mt-20"
+        >
+          Ask a new question
+        </button>
+      </motion.div>
+    </motion.div>
   );
 };
 

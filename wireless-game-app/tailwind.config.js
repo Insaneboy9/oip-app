@@ -7,7 +7,9 @@ module.exports = {
       colors: {
         "deep-blue": "#010026",
         blue: "#2CBCE9",
+        darkRed: "#FF0000",
         red: "#DC4492",
+        lightRed: "rgba(220, 68, 146, 0.5)",
         yellow: "#FDCC49",
         grey: "#ededed",
         "dark-grey": "#757575",
@@ -20,6 +22,7 @@ module.exports = {
 
         rainblue:
           "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+        ufo: "url('./assets/wallpaper.jpg')",
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
