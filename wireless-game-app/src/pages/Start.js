@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-no-background.png";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import LocationSearchingIcon from "@mui/icons-material/LocationSearching";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
@@ -57,7 +57,7 @@ function Start() {
             transition={{ type: "spring", duration: 2 }}
             className="font-playfair font-bold text-5xl text-white"
           >
-            WELCOME TO INSANE GAME
+            WELCOME TO OUR JOURNEY
           </motion.h1>
           <motion.h1
             initial={{ opacity: 0, x: 200 }}
@@ -67,7 +67,7 @@ function Start() {
           >
             SLIDE TO START
           </motion.h1>
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", duration: 2 }}
@@ -107,7 +107,7 @@ function Start() {
                 </Area>
               )}
             </Droppable>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </DragDropContext>
