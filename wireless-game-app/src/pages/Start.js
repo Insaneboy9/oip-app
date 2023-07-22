@@ -67,7 +67,7 @@ function Start() {
           >
             SLIDE TO START
           </motion.h1>
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", duration: 2 }}
@@ -107,7 +107,7 @@ function Start() {
                 </Area>
               )}
             </Droppable>
-          </motion.div> */}
+          </motion.div>
         </div>
       </div>
     </DragDropContext>
