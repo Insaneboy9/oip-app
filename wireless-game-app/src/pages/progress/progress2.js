@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
 import { Card } from 'antd';
 
 const Progress2 = () => {
+  const cardHeaderStyle = { height: '40px', paddingTop: '5px' };
+
   return (
     <div>
-      <Card title="Progress step 2" className="md:h-80 md:w-180 p-4">
+      <Card
+        title={<h3 className="text-white text-2xl">Progress step 2</h3>}
+        headStyle={cardHeaderStyle}
+        className="bg-black bg-opacity-30 text-white md:h-[70vh] lg:h-[80vh] h-auto md:w-180 p-4"
+      >
         <p>This is the content of the card.</p>
       </Card>
     </div>
