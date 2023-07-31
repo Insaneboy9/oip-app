@@ -11,6 +11,7 @@ import Progress1 from "./progress/progress1";
 import Progress2 from "./progress/progress2";
 import Progress3 from "./progress/progress3";
 import Progress4 from "./progress/progress4";
+import FinalProduct from "./progress/finalProduct";
 
 const Home = () => {
   SwiperCore.use([Navigation, Pagination]);
@@ -22,6 +23,11 @@ const Home = () => {
       exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
       className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center"
     >
+      <div className="absolute top-4 right-4 z-20">
+        <button className="bg-blue hover:bg-blue text-white font-bold py-2 px-4 rounded border-2">
+          Click to view dailies
+        </button>
+      </div>
       <div className="w-full h-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
         <div className="swiper-container h-52rem py-8 relative">
           <Swiper
@@ -55,6 +61,9 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Progress4 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <FinalProduct />
             </SwiperSlide>
           </Swiper>
         </div>
