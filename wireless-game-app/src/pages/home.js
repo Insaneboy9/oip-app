@@ -22,17 +22,22 @@ const Home = () => {
       exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
       className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center"
     >
-      <div className="w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
+      <div className="w-full h-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
         <div className="swiper-container h-52rem py-8 relative">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={1} 
-            slidesPerGroup={1} 
+            slidesPerView={1}
+            slidesPerGroup={1}
             loop={true} // Enable loop to prevent issues with navigation  (Got some bug that jumps twice)
             pagination={{ clickable: true }}
-            coverflowEffect={{ rotate: 0, stretch: 0, depth: 100, modifier: 2.5 }}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
+            }}
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
@@ -54,8 +59,14 @@ const Home = () => {
           </Swiper>
         </div>
         <div className="flex justify-between mt-4 px-4">
-          <div className="swiper-button-prev" style={{ color: "white", paddingLeft:"10rem" }}></div>
-          <div className="swiper-button-next" style={{ color: "white", paddingRight:"10rem" }}></div>
+          <div
+            className="swiper-button-prev"
+            style={{ color: "white", paddingLeft: "10rem" }}
+          ></div>
+          <div
+            className="swiper-button-next"
+            style={{ color: "white", paddingRight: "10rem" }}
+          ></div>
         </div>
       </div>
     </motion.div>

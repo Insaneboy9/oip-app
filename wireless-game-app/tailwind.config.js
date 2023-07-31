@@ -15,6 +15,8 @@ module.exports = {
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
         salmon: "#ff7675",
+        transparent: "rgba(0, 0, 0, 0)",
+        scroll: "#7d5fff",
       },
       backgroundImage: (theme) => ({
         rainbow:
@@ -31,6 +33,9 @@ module.exports = {
       content: {
         brush: "url('./assets/brush.png')",
       },
+      width: {
+        lg: "28rem",
+      },
     },
     screens: {
       xs: "480px",
@@ -41,5 +46,5 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")({ nocompatible: true })],
 };
