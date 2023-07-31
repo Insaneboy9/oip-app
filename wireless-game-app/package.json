@@ -1,5 +1,5 @@
 {
-  "name": "wireless-game-app",
+  "name": "team5c-journal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "swiper": "^10.0.4",
+    "tailwind-scrollbar": "^3.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
