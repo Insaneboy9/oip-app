@@ -36,7 +36,7 @@ const FinalProduct = () => {
               className="w-48 h-48 rounded-md overflow-hidden mx-auto"
             />
             <a
-              href="https://ouroipjournal.netlify.app/"
+              href="https://urfrider.github.io/annexe-app/"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-4 py-2 mt-2 bg-green-500 text-white rounded-md font-playfair text-base text-center hover:bg-opacity-80 transition-all"
