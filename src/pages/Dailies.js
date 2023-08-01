@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 
-const Blog = () => {
+const Dailies = () => {
   return (
     <motion.div
       initial={{ width: 0 }}
@@ -15,4 +15,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Dailies;

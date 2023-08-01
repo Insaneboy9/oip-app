@@ -5,8 +5,10 @@ import { motion } from "framer-motion";
 
 function Navbar() {
   const homeMatch = useMatch("/home");
-  const blogMatch = useMatch("/blog");
+  const dailiesMatch = useMatch("/dailies");
   const aboutMatch = useMatch("/about");
+  const reflectionMatch = useMatch("/reflection");
+  const posterMatch = useMatch("/poster");
 
   return (
     <div className="flex p-5 top-0 left-0 h-full absolute flex-col ">
@@ -26,10 +28,30 @@ function Navbar() {
             )}
           </li>
           <li className="mt-5 flex w-full items-center">
-            <Link to="/blog">
-              <span className="text-white mr-2">Blog</span>
+            <Link to="/dailies">
+              <span className="text-white mr-2">Daily Blog</span>
             </Link>
-            {blogMatch && (
+            {dailiesMatch && (
+              <motion.div
+                className="bg-yellow rounded-full w-3 h-3"
+              />
+            )}
+          </li>
+          <li className="mt-5 flex w-full items-center">
+            <Link to="/reflection">
+              <span className="text-white mr-2">Reflection</span>
+            </Link>
+            {reflectionMatch && (
+              <motion.div
+                className="bg-yellow rounded-full w-3 h-3"
+              />
+            )}
+          </li>
+          <li className="mt-5 flex w-full items-center">
+            <Link to="/poster">
+              <span className="text-white mr-2">Poster</span>
+            </Link>
+            {posterMatch && (
               <motion.div
                 className="bg-yellow rounded-full w-3 h-3"
               />
