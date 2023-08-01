@@ -29,10 +29,24 @@ const Progress1 = () => {
             Description
           </div>
           <p className="mt-5 font-playfair text-base">
-            The Annexe Communities Archives" project in Partick, Glasgow, empowers the community by preserving their stories and experiences. They promote collaboration, ensuring every voice is valued and no one is left out. The organization cares about the community's well-being, fostering social connections and resilience among diverse members. We want to be part of this initiative to preserve community history and create a strong sense of belonging among members.
+            The Annexe Communities Archives" project in Partick, Glasgow,
+            empowers the community by preserving their stories and experiences.
+            They promote collaboration, ensuring every voice is valued and no
+            one is left out. The organization cares about the community's
+            well-being, fostering social connections and resilience among
+            diverse members. We want to be part of this initiative to preserve
+            community history and create a strong sense of belonging among
+            members.
           </p>
           <p className="mt-5 font-playfair text-base">
-            The Annexe Communities Archives" project in Partick, Glasgow, empowers the community by preserving their stories and experiences. They promote collaboration, ensuring every voice is valued and no one is left out. The organization cares about the community's well-being, fostering social connections and resilience among diverse members. We want to be part of this initiative to preserve community history and create a strong sense of belonging among members.
+            The Annexe Communities Archives" project in Partick, Glasgow,
+            empowers the community by preserving their stories and experiences.
+            They promote collaboration, ensuring every voice is valued and no
+            one is left out. The organization cares about the community's
+            well-being, fostering social connections and resilience among
+            diverse members. We want to be part of this initiative to preserve
+            community history and create a strong sense of belonging among
+            members.
           </p>
         </div>
       </Card>

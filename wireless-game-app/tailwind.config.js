@@ -17,6 +17,11 @@ module.exports = {
         salmon: "#ff7675",
         transparent: "rgba(0, 0, 0, 0)",
         scroll: "#7d5fff",
+        buttonText: "#fffa65",
+        button: "#ffeaa7",
+        // test: "rgba(220, 68, 146, 1)",
+        test: "#32ff7e",
+        lightBlack: "rgba(0,0,0,0.5)",
       },
       backgroundImage: (theme) => ({
         rainbow:
