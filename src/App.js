@@ -11,16 +11,16 @@ import Poster from "./pages/Poster";
 const App = () => {
   const location = useLocation();
   return (
-    <AnimatePresence>
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Start />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/dailies" element={<Dailies />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/reflection" element={<Reflection />} />
-        <Route path="/poster" element={<Poster />} />
-      </Routes>
-    </AnimatePresence>
+    // <AnimatePresence>
+    <Routes location={location} key={location.pathname}>
+      <Route path="/" element={<Start />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/dailies" element={<Dailies />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/reflection" element={<Reflection />} />
+      <Route path="/poster" element={<Poster />} />
+    </Routes>
+    // </AnimatePresence>
   );
 };
 
