@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { Card } from "antd";
@@ -32,7 +32,7 @@ const About = () => {
                 <div className="w-lg mx-auto rounded-lg border-2 overflow-hidden">
                   <img
                     src={teamPhoto}
-                    alt="Step 1 Image"
+                    alt="Team"
                     className="w-full h-full object-contain rounded-md overflow-hidden"
                   />
                 </div>
@@ -46,9 +46,12 @@ const About = () => {
                 </div>
                 <p className="mt-5 font-playfair text-base">
                   Welcome to TEAM 5C, where our skilled members lead the way in
-                  creating an exceptional online experience. Meet Wen Kang, our
-                  talented Lead Developer, Kim, our dedicated User Experience
-                  (UX) Designer, and Xueli, our creative Content Manager.
+                  creating an exceptional online experience. Meet our talented team members:
+                  <ul className="list-disc pl-8 mt-3 mb-3">
+                    <li>Wen Kang, our Lead Developer</li>
+                    <li>Kim, our dedicated User Experience (UX) Designer</li>
+                    <li>Xueli, our creative Content Manager</li>
+                  </ul>
                   Together, we are on a mission to craft a cutting-edge
                   web-based platform that empowers the Annexe Communities to
                   showcase their events, share captivating stories, and display
