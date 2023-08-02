@@ -11,7 +11,7 @@ function Navbar() {
   const posterMatch = useMatch("/poster");
 
   return (
-    <div className="flex p-5 top-0 left-0 h-full absolute flex-col ">
+    <div className="flex p-5 top-0 left-0 h-full absolute flex-col">
       <div className="flex-initial mb-10">
         <img className="w-24" src={logo} alt="Logo" />
       </div>
@@ -22,9 +22,7 @@ function Navbar() {
               <span className="text-white mr-2">Design Journal</span>
             </Link>
             {homeMatch && (
-              <motion.div
-                className="bg-yellow rounded-full w-3 h-3"
-              />
+              <motion.div className="bg-yellow rounded-full w-3 h-3" />
             )}
           </li>
           <li className="mt-5 flex w-full items-center">
@@ -32,9 +30,7 @@ function Navbar() {
               <span className="text-white mr-2">Daily Blog</span>
             </Link>
             {dailiesMatch && (
-              <motion.div
-                className="bg-yellow rounded-full w-3 h-3"
-              />
+              <motion.div className="bg-yellow rounded-full w-3 h-3" />
             )}
           </li>
           <li className="mt-5 flex w-full items-center">
@@ -42,9 +38,7 @@ function Navbar() {
               <span className="text-white mr-2">Reflection</span>
             </Link>
             {reflectionMatch && (
-              <motion.div
-                className="bg-yellow rounded-full w-3 h-3"
-              />
+              <motion.div className="bg-yellow rounded-full w-3 h-3" />
             )}
           </li>
           <li className="mt-5 flex w-full items-center">
@@ -52,9 +46,7 @@ function Navbar() {
               <span className="text-white mr-2">Poster</span>
             </Link>
             {posterMatch && (
-              <motion.div
-                className="bg-yellow rounded-full w-3 h-3"
-              />
+              <motion.div className="bg-yellow rounded-full w-3 h-3" />
             )}
           </li>
           <li className="mt-5 flex w-full items-center">
@@ -62,9 +54,7 @@ function Navbar() {
               <span className="text-white mr-2">About Us</span>
             </Link>
             {aboutMatch && (
-              <motion.div
-                className="bg-yellow rounded-full w-3 h-3"
-              />
+              <motion.div className="bg-yellow rounded-full w-3 h-3" />
             )}
           </li>
         </ul>

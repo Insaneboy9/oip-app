@@ -24,7 +24,7 @@ const Home = () => {
       exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
       className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center"
     >
-      <Navbar/>
+      <Navbar />
       <div className="w-full h-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
         <div className="swiper-container h-52rem py-8 relative">
           <Swiper
@@ -62,18 +62,30 @@ const Home = () => {
             <SwiperSlide>
               <FinalProduct />
             </SwiperSlide>
+            {/* <div className="swiper-button-prev" style={{ color: "white" }} />
+            <div className="swiper-button-next" style={{ color: "white" }} /> */}
           </Swiper>
-        </div>
-        <div className="flex justify-between mt-4 px-4">
-          <div
+          {/* <div
             className="swiper-button-prev"
-            style={{ color: "white", paddingLeft: "10rem" }}
-          ></div>
+            style={{ color: "white", paddingLeft: "2rem", opacity: 0.5 }}
+          />
           <div
             className="swiper-button-next"
-            style={{ color: "white", paddingRight: "10rem" }}
-          ></div>
+            style={{ color: "white", paddingRight: "2rem", opacity: 0.5 }}
+          /> */}
         </div>
+
+        <div
+          className="swiper-button-prev"
+          style={{
+            color: "white",
+            paddingLeft: "10rem",
+          }}
+        ></div>
+        <div
+          className="swiper-button-next"
+          style={{ color: "white", paddingRight: "10rem" }}
+        ></div>
       </div>
     </motion.div>
   );
