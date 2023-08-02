@@ -13,18 +13,18 @@ function Navbar() {
   const toStart = () => navigate("/");
 
   return (
-    <div className="flex p-5 top-0 left-0 h-full absolute flex-col">
-      <div className="flex-initial mb-10">
+    <div className="flex p-5 top-0 left-0 h-full absolute flex-col w-1/6">
+      <div className="flex-initial">
         <img
           onClick={toStart}
-          className="w-24 cursor-pointer"
+          className="w-32 cursor-pointer"
           src={logo}
           alt="Logo"
         />
       </div>
       <div className="flex-initial h-full flex justify-around items-center flex-col gap-10">
-        <ul className="h-full">
-          <li className="mt-5 flex w-full items-center">
+        <ul className="h-full w-full">
+          <li className="mt-5 flex w-full">
             <Link to="/home">
               <span className="text-white mr-2">Design Journal</span>
             </Link>
