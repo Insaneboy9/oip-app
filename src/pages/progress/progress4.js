@@ -5,6 +5,13 @@ import step4 from "../../assets/step4.png";
 const Progress4 = () => {
   const cardHeaderStyle = { height: "40px", paddingTop: "5px" };
 
+  const openFigmaPrototype = () => {
+    window.open(
+      "https://www.figma.com/proto/4b05JZ7uxoWohraJ0PfRnA/Untitled?type=design&node-id=2-3&t=ghHKsuGMRSfz1y0E-1&scaling=scale-down&page-id=0%3A1&mode=design",
+      "_blank"
+    );
+  };
+
   return (
     <div>
       <Card
@@ -28,17 +35,62 @@ const Progress4 = () => {
           <div className="w-48 h-10 -top-5 text-lg bg-blue border-2 absolute flex items-center justify-center font-playfair rounded-md">
             Description
           </div>
+          <div className="mt-5 text-center">
+            <button type="primary" className="w-30 h-10 rounded-md text-lg bg-blue border-2" onClick={openFigmaPrototype}>
+              Click me to try the Figma prototype
+            </button>
+          </div>
           <p className="mt-5 font-playfair text-base">
-            During the initial phase of paper sketches, we discovered their effectiveness in exploring design ideas and identifying flaws. However, we encountered some concerns, such as the need for admin vetting of user-shared content to avoid inappropriate material, and potential issues with the scroll view when handling a significant increase in data.
+            We observed the efficiency of paper sketches in exploring design
+            ideas and finding problems during the initial phase. However, we
+            discovered certain drawbacks, such as the requirement for admin
+            vetting of user-shared content to avoid improper content and
+            potential challenges with the scroll view when dealing with a big
+            increase in data.
           </p>
           <p className="mt-5 font-playfair text-base">
-            To address these limitations and refine our design, we transitioned from low-fidelity paper sketches to a high-fidelity prototype using Figma. This allowed us to add visual details and interactions, creating a more realistic look and feel for the design. The interactive prototypes in Figma helped simulate user flows and allowed us to spot usability issues early on. Using Figma also facilitated smoother communication during the website creation process. We could directly share design specifications and assets, reducing the risk of miscommunication and ensuring the final product aligned closely with our vision.
+            We moved from low-fidelity paper sketches to a high-fidelity
+            prototype using Figma to solve these restrictions and develop our
+            design. This allowed us to incorporate visual details and
+            interactions, giving the design a more realistic look and feel.
+            Figma's interactive prototypes let us model user flows and identify
+            usability concerns early on.
           </p>
           <p className="mt-5 font-playfair text-base">
-            During the Figma phase, we identified some finer issues that required attention to enhance the user experience. For instance, we implemented a dedicated button to navigate back to the homepage from any page within the application, making navigation more intuitive. We also kept the number of pages to a minimum, further simplifying the user's journey.
+            Using Figma also made communication easier during the website
+            construction process. We could share design specs and assets
+            immediately, decreasing the possibility of misinterpretation and
+            ensuring the end product was closely aligned with our vision.
           </p>
           <p className="mt-5 font-playfair text-base">
-            After presenting the prototype to Jane, we received valuable feedback. Jane expressed interest in having the ability to click on images from the first page, which would then lead to a slideshow or galleries containing related images or videos with descriptions. This would address our concern about overwhelming users with too much content from events and make the website more user-friendly. Additionally, Jane agreed that user-shared content should be reviewed by admin staff to prevent inappropriate or prank-related posts, considering different views within the community. We also worked on improving the layout, creating a more natural and logical information flow to help users easily find what they're looking for. Our main goal is to make the website user-friendly for people of all backgrounds and technical expertise. Thanks to the changes we implemented, visitors now have a positive first impression and are encouraged to explore and engage with the content more deeply.
+            During the Figma phase, we found several finer issues that needed to
+            be addressed to improve the user experience. For example, to make
+            navigation more intuitive, we added a dedicated button to return to
+            the homepage from any page within the program. We also reduced the
+            number of pages to keep the user's trip as simple as possible.
+          </p>
+          <p className="mt-5 font-playfair text-base">
+            We received useful input after displaying the prototype to Jane.
+            Jane showed interest in being able to click on photographs from the
+            first page, which would then take her to a slideshow or galleries
+            featuring related images or videos with captions. This would address
+            our worry about overwhelming users with event content and make the
+            website more user-friendly.
+          </p>
+          <p className="mt-5 font-playfair text-base">
+            Furthermore, Jane agreed that user-shared content should be checked
+            by admin staff to prevent inappropriate or prank-related entries,
+            taking into account diverse points of view within the community. We
+            also worked on enhancing the layout, producing a more natural and
+            logical information flow to help users locate what they're looking
+            for.
+          </p>
+          <p className="mt-5 font-playfair text-base">
+            Our primary goal is to make the website accessible to people of all
+            backgrounds and levels of technical expertise. Visitors now get a
+            great initial impression as a result of the modifications we did,
+            and they are encouraged to investigate and connect with the content
+            more fully.
           </p>
         </div>
       </Card>
