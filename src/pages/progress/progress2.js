@@ -29,16 +29,22 @@ const Progress2 = () => {
             Description
           </div>
           <p className="mt-5 font-playfair text-base">
-            We went to meet Jane for the first time on 19th July, during the client meeting, we gathered important requirements for the platform. The primary focus is to create a simple and user-friendly website that showcases and provides information on murals and art pieces created by the community.
+            On July 19th, we went to see Jane for the first time, and during the client meeting, we gathered essential platform requirements. The major goal is to establish a simple and user-friendly website that showcases murals and artworks created by the community. Additionally, the platform should serve as a space for community members to share their stories and experiences, as well as to describe The Annexe's events and activities, emphasizing their positive impact on the community.
           </p>
           <p className="mt-5 font-playfair text-base">
-            Additionally, the platform should serve as a space for community members to share their stories and experiences. Furthermore, it should document events and activities conducted by The Annexe, highlighting their impact on the community. In terms of demographics, the current user base mainly consists of individuals aged 60 years and above. However, the target demographic is open to any member of the community, with a specific emphasis on engaging and appealing to the younger generation.
+            In terms of demographics, the present user base primarily comprises individuals aged 60 and up. However, the target demographic is open to any member of the community, with a particular focus on engaging and appealing to the younger generation.
           </p>
           <p className="mt-5 font-playfair text-base">
-            The purpose of the platform is two-fold. First, it aims to secure funding for The Annexe by showcasing their work and impact through art pieces and community stories. Second, it seeks to ensure that the experiences and stories of the community do not go unheard or forgotten. Insights from the meeting shed light on the client's preferences, as Jane Cowie expressed her preference for face-to-face connections. The existing tools and platforms used by The Annexe include Facebook, an outsourced website, a mobile app, Twitter, and an email list. However, there are concerns about the limitations of these tools in terms of flexibility, portability, and community engagement. There is a clear need for a more inclusive and accessible platform that allows for seamless sharing and interaction among community members.
+            The platform serves two key functions. First, it aims to raise funds for The Annexe by showcasing their work and impact through art and community stories. Second, it endeavors to ensure that the community's experiences and tales are not lost or forgotten.
           </p>
           <p className="mt-5 font-playfair text-base">
-            One of the challenges identified during the meeting is the management and distribution of archived materials. The current tools are not well-suited for this purpose, and there is a desire to create a more efficient and organized system. Given the limited two-week timeline, the team recognizes the necessity to narrow down the project's scope. The focus will be on either showcasing art pieces, sharing community stories, or documenting events. This decision will allow the team to concentrate their efforts and deliver a high-quality product within the given timeframe.
+            As Jane Cowie revealed her desire for face-to-face relationships, meeting insights shed light on the client's preferences. The Annexe's existing tools and platforms include Facebook, an outsourced website, a mobile app, Twitter, and an email list. However, there are concerns regarding the limitations of these tools in terms of adaptability, portability, and community engagement. A more open and accessible platform that enables seamless sharing and interaction among community members is clearly needed.
+          </p>
+          <p className="mt-5 font-playfair text-base">
+            One of the key issues raised at the meeting was the management and dissemination of historical materials. The current instruments are inadequate for this goal, and a more efficient and organized method is desired.
+          </p>
+          <p className="mt-5 font-playfair text-base">
+            Given the project's two-week deadline, the team acknowledges the need to minimize the project's scope. The primary focus will be on displaying art, sharing community stories, and documenting events. This strategic decision will allow the team to concentrate their efforts and deliver a high-quality product within the specified timeframe.
           </p>
         </div>
       </Card>

@@ -29,24 +29,28 @@ const Progress1 = () => {
             Description
           </div>
           <p className="mt-5 font-playfair text-base">
-            The Annexe Communities Archives" project in Partick, Glasgow,
-            empowers the community by preserving their stories and experiences.
-            They promote collaboration, ensuring every voice is valued and no
-            one is left out. The organization cares about the community's
-            well-being, fostering social connections and resilience among
-            diverse members. We want to be part of this initiative to preserve
-            community history and create a strong sense of belonging among
-            members.
-          </p>
-          <p className="mt-5 font-playfair text-base">
-            The Annexe Communities Archives" project in Partick, Glasgow,
-            empowers the community by preserving their stories and experiences.
-            They promote collaboration, ensuring every voice is valued and no
-            one is left out. The organization cares about the community's
-            well-being, fostering social connections and resilience among
-            diverse members. We want to be part of this initiative to preserve
-            community history and create a strong sense of belonging among
-            members.
+            In Partick, Glasgow, "The Annexe Communities Archives" project
+            empowers the community by preserving their tales and experiences.
+            The project is dedicated to creating an inclusive space where
+            everyone's voice is heard, and no one is left out. They encourage
+            teamwork and collaboration, fostering social connections and
+            resilience among diverse members of the community. The main focus of
+            this project is to preserve the rich history of the community while
+            instilling a strong sense of belonging and identity among its
+            members. By documenting and archiving their stories, the project
+            aims to celebrate the unique culture and heritage of the
+            neighborhood, ensuring that future generations have access to their
+            collective memories and traditions. The Annexe Communities Archives
+            project is driven by a genuine concern for the well-being of the
+            community. Through their activities, they strive to promote social
+            cohesion, understanding, and empathy among individuals from various
+            backgrounds. By preserving and sharing their stories, the project
+            aims to strengthen community ties and create a lasting legacy that
+            will inspire and benefit generations to come. We are excited to be a
+            part of this meaningful project and contribute to the preservation
+            of community history. By supporting the Annexe Communities Archives,
+            we aim to play a role in empowering the community and promoting a
+            shared sense of pride and belonging for all its members.
           </p>
         </div>
       </Card>

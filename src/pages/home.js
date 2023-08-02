@@ -13,6 +13,7 @@ import Progress3 from "./progress/progress3";
 import Progress4 from "./progress/progress4";
 import FinalProduct from "./progress/finalProduct";
 import Navbar from "../components/Navbar";
+import Progress5 from "./progress/progress5";
 
 const Home = () => {
   SwiperCore.use([Navigation, Pagination]);
@@ -58,6 +59,9 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Progress4 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Progress5 />
             </SwiperSlide>
             <SwiperSlide>
               <FinalProduct />
