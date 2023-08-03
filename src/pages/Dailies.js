@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { Navigation, Pagination } from "swiper/modules";
@@ -17,20 +17,14 @@ import Day7 from "./dailies/Day7";
 import Day8 from "./dailies/Day8";
 import Day9 from "./dailies/Day9";
 import Day10 from "./dailies/Day10";
-
-
+import Week1Video from "./dailies/Week1Video";
+import Week2Video from "./dailies/Week2Video";
 
 const Dailies = () => {
-
   SwiperCore.use([Navigation, Pagination]);
   return (
-    <motion.div
-      initial={{ width: 0 }}
-      animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
-      className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center"
-    >
-      <Navbar/>
+    <div className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center scrollbar-none">
+      <Navbar />
       <div className="w-full h-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
         <div className="swiper-container h-52rem py-8 relative">
           <Swiper
@@ -66,6 +60,9 @@ const Dailies = () => {
               <Day4 />
             </SwiperSlide>
             <SwiperSlide>
+              <Week1Video />
+            </SwiperSlide>
+            <SwiperSlide>
               <Day5 />
             </SwiperSlide>
             <SwiperSlide>
@@ -79,6 +76,9 @@ const Dailies = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Day9 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Week2Video />
             </SwiperSlide>
             <SwiperSlide>
               <Day10 />
@@ -96,7 +96,7 @@ const Dailies = () => {
           ></div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

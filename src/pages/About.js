@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { Card } from "antd";
 import teamPhoto from "../assets/team-photo.jpg";
@@ -8,12 +7,7 @@ const About = () => {
   const cardHeaderStyle = { height: "40px", paddingTop: "5px" };
 
   return (
-    <motion.div
-      initial={{ width: 0 }}
-      animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
-      className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center"
-    >
+    <div className="h-screen w-screen relative bg-ufo bg-cover justify-center flex items-center">
       <Navbar />
       <div className="w-full h-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto">
         <div className="swiper-container h-52rem py-8 relative">
@@ -46,7 +40,8 @@ const About = () => {
                 </div>
                 <p className="mt-5 font-playfair text-base">
                   Welcome to TEAM 5C, where our skilled members lead the way in
-                  creating an exceptional online experience. Meet our talented team members:
+                  creating an exceptional online experience. Meet our talented
+                  team members:
                   <ul className="list-disc pl-8 mt-3 mb-3">
                     <li>Wen Kang, our Lead Developer</li>
                     <li>Kim, our dedicated User Experience (UX) Designer</li>
@@ -63,7 +58,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
