@@ -8,13 +8,13 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import useAnimate from "../hooks/useAnimate.js";
 
-import Progress1 from "./progress/progress1";
-import Progress2 from "./progress/progress2";
-import Progress3 from "./progress/progress3";
-import Progress4 from "./progress/progress4";
-import FinalProduct from "./progress/finalProduct";
-import Navbar from "../components/Navbar";
-import Progress5 from "./progress/progress5";
+import Progress1 from "./progress/progress1.js";
+import Progress2 from "./progress/progress2.js";
+import Progress3 from "./progress/progress3.js";
+import Progress4 from "./progress/progress4.js";
+import FinalProduct from "./progress/finalProduct.js";
+import Navbar from "../components/Navbar.js";
+import Progress5 from "./progress/progress5.js";
 
 const Home = () => {
   SwiperCore.use([Navigation, Pagination]);
