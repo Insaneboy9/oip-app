@@ -32,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,5 +56,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.6"
-  }
+  },
+  "homepage": "https://insaneboy9.github.io/oip-app/"
 }

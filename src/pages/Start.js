@@ -68,7 +68,7 @@ function Start() {
               transition={{ repeat: Infinity, duration: 1 }}
               className="text-buttonText text-xl font-bold"
             >
-              "CLICK ME TRY ANNEXE-CONNECT"
+              "CLICK ME FOR DEMO"
             </motion.p>
             <motion.div whileHover={{ scale: 1.4, rotate: 45 }}>
               <Link to="https://urfrider.github.io/annexe-app/" target="_blank">
@@ -83,7 +83,9 @@ function Start() {
               transition={{ type: "spring", duration: 2 }}
               className="font-playfair font-bold text-3xl text-test w-2/3 text-center z-10"
             >
-              WELCOME! WE ARE A GROUP OF UoG STUDENTS TASKED TO DESIGN A SOLUTION FOR THE ANNEXE COMMUNITIES DUE TO THE LACK OF DOCUMENTATION AND SHARING OF THEIR ACTIVITIES
+              WELCOME! WE ARE A GROUP OF UofG STUDENTS TASKED TO DESIGN A
+              SOLUTION FOR THE ANNEXE COMMUNITIES DUE TO THE LACK OF
+              DOCUMENTATION AND SHARING OF THEIR ACTIVITIES
             </motion.h1>
             <div className="relative">
               <motion.h1
