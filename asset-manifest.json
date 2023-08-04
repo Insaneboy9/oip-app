@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/oip-app/static/css/main.00fdd674.css",
+    "main.js": "/oip-app/static/js/main.5c07f00e.js",
+    "static/media/poster.png": "/oip-app/static/media/poster.4e8a8b03ff0665e2f763.png",
+    "static/media/finalProduct.png": "/oip-app/static/media/finalProduct.7e6337d363aa40fe28d4.png",
+    "static/media/wallpaper.jpg": "/oip-app/static/media/wallpaper.74ad889cc463f1045936.jpg",
+    "static/media/team-photo.jpg": "/oip-app/static/media/team-photo.54b30089e4bc43832ea3.jpg",
+    "static/media/step2.png": "/oip-app/static/media/step2.78c425248298b9c0872f.png",
+    "static/media/step1.jpg": "/oip-app/static/media/step1.49e6e61f254bcd1b45d8.jpg",
+    "static/media/day13.jpg": "/oip-app/static/media/day13.1cc42c783d822dd449b5.jpg",
+    "static/media/step4.png": "/oip-app/static/media/step4.55e4e77a460d2dec40b0.png",
+    "static/media/day3.png": "/oip-app/static/media/day3.2c33fc488fc665edb743.png",
+    "static/media/day2.png": "/oip-app/static/media/day2.23398b3ddb84b5bd55da.png",
+    "static/media/day12.jpg": "/oip-app/static/media/day12.9657479e8576a70288d5.jpg",
+    "static/media/day1.png": "/oip-app/static/media/day1.0e2159b8e14d67bf4c74.png",
+    "static/media/logo-no-background.png": "/oip-app/static/media/logo-no-background.adc8ff6bbb644573032f.png",
+    "static/media/step3.png": "/oip-app/static/media/step3.d94365d6fbf426ca5cb1.png",
+    "static/media/annexeapp.png": "/oip-app/static/media/annexeapp.e5a6af06ff131b366e0a.png",
+    "index.html": "/oip-app/index.html",
+    "main.00fdd674.css.map": "/oip-app/static/css/main.00fdd674.css.map",
+    "main.5c07f00e.js.map": "/oip-app/static/js/main.5c07f00e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00fdd674.css",
+    "static/js/main.5c07f00e.js"
+  ]
+}
