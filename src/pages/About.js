@@ -43,9 +43,36 @@ const About = () => {
                   creating an exceptional online experience. Meet our talented
                   team members:
                   <ul className="list-disc pl-8 mt-3 mb-3">
-                    <li>Wen Kang, our Lead Developer</li>
-                    <li>Kim, our dedicated User Experience (UX) Designer</li>
-                    <li>Xueli, our creative Content Manager</li>
+                    <li>
+                      Wen Kang, our Lead Developer -{" "}
+                      <a
+                        href="https://www.linkedin.com/in/darylseah99/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        LinkedIn
+                      </a>
+                    </li>
+                    <li>
+                      Kim, our dedicated User Experience (UX) Designer -{" "}
+                      <a
+                        href="https://www.linkedin.com/in/beomjun-kim-32309122a/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        LinkedIn
+                      </a>
+                    </li>
+                    <li>
+                      Xueli, our creative Content Manager -{" "}
+                      <a
+                        href="https://www.linkedin.com/in/xueli-xu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        LinkedIn
+                      </a>
+                    </li>
                   </ul>
                   Together, we are on a mission to craft a cutting-edge
                   web-based platform that empowers the Annexe Communities to

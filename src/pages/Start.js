@@ -90,9 +90,9 @@ function Start() {
                 initial={{ opacity: 0, x: 200 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ type: "spring", duration: 2 }}
-                className="font-playfair font-bold text-2xl text-buttonText text-center mt-3 mb-10 z-10"
+                className="font-playfair font-bold text-3xl text-buttonText text-center mt-3 mb-10 z-10"
               >
-                SLIDE TO VIEW OUR JOURNEY IN DESIGNING ANNEXE-CONNECT
+                SLIDE TO DISCOVER OUR JOURNEY
               </motion.h1>
             </div>
             <motion.div
