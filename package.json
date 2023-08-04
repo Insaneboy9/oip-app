@@ -56,6 +56,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.6"
-  },
-  "homepage": "https://insaneboy9.github.io/oip-app/"
+  }
 }
