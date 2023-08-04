@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import { Navigation, Pagination } from "swiper/modules";
 import SwiperCore from "swiper";
@@ -17,6 +16,9 @@ import Day7 from "./dailies/Day7";
 import Day8 from "./dailies/Day8";
 import Day9 from "./dailies/Day9";
 import Day10 from "./dailies/Day10";
+import Day11 from "./dailies/Day11";
+import Day12 from "./dailies/Day12";
+import Day13 from "./dailies/Day13";
 import Week1Video from "./dailies/Week1Video";
 import Week2Video from "./dailies/Week2Video";
 
@@ -82,6 +84,15 @@ const Dailies = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Day10 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Day11 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Day12 />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Day13 />
             </SwiperSlide>
           </Swiper>
         </div>
